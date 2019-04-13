@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blueasy</title>
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+
+    <div id="navContainer">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg" id="navigation">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/header.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link scroll" href="#highlight"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#services"
+                  >Services / Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#video">Video / Twitter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#john">John Doe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#testimonials">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- HIGHLIGHT -->
+
+    <div class="highlight" id="highlight">
+      <div class="highlight-text">
+        <h1>
+          <span id="span1"
+            >“I’m looking for the unexpected. <br />
+            I’m looking for things I’ve never seen before.“</span
+          >
+        </h1>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+
+    <div class="services" id="services">
+      <div class="container services-container">
+        <h1>Services</h1>
+        <div class="underline"></div>
+        <div class="row services-row">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <img src="img/Coffee.png" alt="Coffee" />
+            <h2>Coffee</h2>
+            <p>
+              Apple pie icing sweet. Brownie jelly-o applicake applicake sweet
+              roll liquorice bear claw. Jujubes carrot cace cotton candy sweet
+              tart brownie. Tiramisu applicake jujubes.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <img src="img/Instant.png" alt="Instant" />
+            <h2>Instant</h2>
+            <p>
+              Apple pie icing sweet. Brownie jelly-o applicake applicake sweet
+              roll liquorice bear claw. Jujubes carrot cace cotton candy sweet
+              tart brownie. Tiramisu applicake jujubes.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <img src="img/Serious.png" alt="Serious" />
+            <h2>Serious</h2>
+            <p>
+              Apple pie icing sweet. Brownie jelly-o applicake applicake sweet
+              roll liquorice bear claw. Jujubes carrot cace cotton candy sweet
+              tart brownie. Tiramisu applicake jujubes.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+            <img src="img/Frame.png" alt="Frame" />
+            <h2>Frame</h2>
+            <p>
+              Apple pie icing sweet. Brownie jelly-o applicake applicake sweet
+              roll liquorice bear claw. Jujubes carrot cace cotton candy sweet
+              tart brownie. Tiramisu applicake jujubes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row portfolio-row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <h1>Portfolio</h1>
+            <div id="underline-1"></div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9" id="portlinks">
+            <ul>
+              <li><a class="fil-cat" data-rel="all">All</a></li>
+              <li><a class="fil-cat" data-rel="panoramas">Panoramas</a></li>
+              <li><a class="fil-cat" data-rel="portraits">Portraits</a></li>
+              <li><a class="fil-cat" data-rel="macro">Macro</a></li>
+              <li><a class="fil-cat" data-rel="journal">Journal</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="portfolio-content">
+      <div class="row text-center text-lg-left">
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all panoramas"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic1.jpg"
+                alt="Picture1"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all portraits"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic2.jpg"
+                alt="Picture2"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all macro panoramas"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic3.jpg"
+                alt="Picture3"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all journal"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic4.jpg"
+                alt="Picture4"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all panoramas journal"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic5.jpg"
+                alt="Picture5"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all portraits"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic6.jpg"
+                alt="Picture6"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all macro portraits"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic7.jpg"
+                alt="Picture7"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 col-sm-6 col-xs-6 img-div scale-anm all journal panoramas"
+        >
+          <div class="portfolio-item">
+            <a href="#portfolio" class="d-block mb-4 h-100">
+              <img
+                class="img-fluid img-thumbnail"
+                src="img/pic8.jpg"
+                alt="Picture8"
+              />
+              <div class="overlay"><span>+</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NATURE VIDEO -->
+
+    <div class="default" id="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <h1>Nature video in 4K</h1>
+            <div class="underline-2"></div>
+            <p>
+              Bear claw marzipan bear claw applicake i love muffin. Lemon drops
+              gummi bears pastry gummi bears sesame snaps i love underwear.com.
+              Souffle cotton candy dessert candy ice cream wafer gummies
+              cheescake browni.
+            </p>
+            <p>
+              Muffin chupa chups jelly beans sweet pie applicake. Croissant
+              chocolate cake i love pudding. Ice cream i love powder pudding
+              apple pie marshmallow. Cupcake marzipan out cake bonbon i love
+              candy canes toffee.
+            </p>
+            <button class="btn">Visit me</button>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <iframe
+              src="https://player.vimeo.com/video/89009039"
+              width="730"
+              height="300"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+              class="movie"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TWITTER -->
+
+    <div class="twitter">
+      <div class="container">
+        <div class="row">
+          <div class="col-11">
+            <h1>Twitter</h1>
+            <div id="underline-2"></div>
+            <p>
+              Unerdewar cookie liquorice. Cake donut cupcake lollipop souffle
+              candy. Chocolate out cake
+              <strong><a href="#">@cheesecake</a></strong> tootsie roll.
+            </p>
+          </div>
+          <div class="col-1">
+            <i class="fab fa-twitter" id="twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JOHN DOE -->
+
+    <div class="john" id="john">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Who is John Doe?</h1>
+            <div id="underline-2"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              Bear claw marzipan bear claw applicake i love muffin. Lemon drops
+              gummi bears pastry gummi bears sesame snaps i love underwear.com.
+              Souffle cotton candy dessert candy ice cream wafer gummies
+              cheescake browni.
+            </p>
+            <p>
+              Muffin chupa chups jelly beans sweet pie applicake. Croissant
+              chocolate cake i love pudding. Ice cream i love powder pudding
+              apple pie marshmallow. Cupcake marzipan out cake bonbon i love
+              candy canes toffee.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              Pudding dessert jujubes tiramisu gingerbread croissant tiramisu
+              applicake. Sesame snaps sugar plum cotton candy chokolate bonbon
+              lemon drops candy canes cotton candy. Cake toffee pie bear claw
+              pastry.
+            </p>
+            <a href="#john"><i class="fab fa-twitter"></i></a>
+            <a href="#john"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#john"><i class="fab fa-dribbble"></i></a>
+            <a href="#john"><i class="fas fa-coffee"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+
+    <div class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-11">
+            <h1>Testimonials</h1>
+            <div id="underline-1"></div>
+            <p>
+              Applicake chocolate cake wafer toffee pie souffle wafer. Tart
+              marshmallow wafel macaroon cheesecake jelly, Gingerbread cookie
+              souffle sweet roll sweet roll jelly-o.
+            </p>
+            <br />
+            <p id="walter">- Walter White</p>
+          </div>
+          <div class="col-1">
+            <i class="fas fa-quote-right" id="quote"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Contact</h1>
+            <div id="underline-2"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col">
+            <div class="form-group">
+              <label class="label" for="name">Full name</label>
+              <input type="text" class="form-control" id="name" name="name" />
+              <label class="label" for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6">
+            <p>
+              Jujubes bear claw corissant wafer sweet lemon drops brownie
+              chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake.
+              Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes
+              bear claw donut chupa chups.
+            </p>
+            <div class="personalInfo">
+              <p>Linda Newman</p>
+              <p>W325 State Road 123</p>
+              <p>Mondovi, WI(Wisconsin) 98746-54321</p>
+              <p>(715) 946 - 1234</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label class="label" for="message">Message</label>
+            <textarea
+              name="issues"
+              class="form-control"
+              id="message"
+            ></textarea>
+          </div>
+        </div>
+        <button class="btn1">Message</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-lg-10 col-md-9 col-sm-10 col-xs-11">
+            <a href="#highlight">Home</a>
+            <a href="#services">Services</a>
+            <a href="#video">Video</a>
+            <a href="#john">John Doe</a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-2 col-xs-1">
+            <p id="copy">2019 &copy;</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
